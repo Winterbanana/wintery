@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARK - Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-user-circle"></i>
+                <h1>Tugade, Mark Joseph</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="skill.html"><i class="fas fa-cogs"></i> Skills</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <div class="menu-icon" id="menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <h2>Welcome to My Personal Portfolio</h2>
+            <p>Drawing | Cooking | Travelling</p>
+            <a href="#contact" class="cta-button">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h3>About Me</h3>
+            <div class="about-content">
+                <!-- Profile Picture -->
+                <div class="profile-pic">
+                    <img src="mark.jpg" alt="John Doe">
+                </div>
+                <div class="bio">
+                    <p>Hello! I'm Mark! i like to play games and draw and sketch anything. i also play games and travel from time to time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h3>Skills</h3>
+            <ul class="skills-list">
+                <li>Photoshop</li>
+                <li>Drawing Anime</li>
+                <li>Sketch</li>
+                <li>Travelling</li>
+                <li>Cooking</li>
+                <li>Games</li>
+                <li>GitHub</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h3>Projects</h3>
+            <div class="project-item">
+                <h4>Project 1</h4>
+                <p>Create a simple HTML.</p>
+            </div>
+            <div class="project-item">
+                <h4>Project 2</h4>
+                <p>Create a simple CSS.</p>
+            </div>
+            <div class="project-item">
+                <h4>Project 3</h4>
+                <p>Create a Responsive site.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h3>Contact Me</h3>
+            <form action="mailto:email@example.com" method="POST" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="scripts.js"></script>
+</body>
+</html>
